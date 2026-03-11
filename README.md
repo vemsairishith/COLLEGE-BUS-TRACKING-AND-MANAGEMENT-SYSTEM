@@ -5,15 +5,11 @@ This project focuses on route management, role-based access control, and simulat
 
 🚀 Key Features
 
-👨‍💼 Admin Portal
-
-Create and manage bus routes
-
-Assign drivers and buses
-
-Allocate students to specific stops
-
-Monitor system activity and bus routes
+👨‍💼 Admin Portal:
+ Create and manage bus routes,
+ Assign drivers and buses,
+ Allocate students to specific stops,
+ Monitor system activity and bus routes
 
 🧑‍✈️ Driver Portal
 
