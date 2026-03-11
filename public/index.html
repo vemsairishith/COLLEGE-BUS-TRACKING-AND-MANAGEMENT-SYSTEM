@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Bus Tracking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚌 College Bus Tracking System</h1>
+            <p>Select your role to access the system</p>
+        </div>
+        
+        <div class="role-selection">
+            <div class="role-card" onclick="openInterface('admin')">
+                <div class="role-icon">👨‍💼</div>
+                <h2>Admin</h2>
+                <p>Manage buses, routes, and student allocations</p>
+            </div>
+            
+            <div class="role-card" onclick="openInterface('student')">
+                <div class="role-icon">🎓</div>
+                <h2>Student</h2>
+                <p>View your route and track your bus</p>
+            </div>
+            
+            <div class="role-card" onclick="openInterface('driver')">
+                <div class="role-icon">🚗</div>
+                <h2>Driver</h2>
+                <p>View route and update trip status</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openInterface(role) {
+            window.open(`${role}.html`, '_blank');
+        }
+    </script>
+</body>
+</html>
+
